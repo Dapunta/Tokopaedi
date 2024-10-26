@@ -1,6 +1,6 @@
 // Global
-// const api = 'http://127.0.0.1:5000'; // Change This
-const api = 'https://tokopaedi-api.dapuntaratya.com'; // Change This
+const api = 'http://127.0.0.1:5000'; // Change This
+// const api = 'https://tokopaedi-api.dapuntaratya.com'; // Change This
 let buffer = '';
 let list_product = [];
 

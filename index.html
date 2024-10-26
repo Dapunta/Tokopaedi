@@ -11,6 +11,7 @@
     <!-- Local Style -->
     <link rel="icon" href="assets/icon_tokopaedi.png" type="image/png">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styled.css">
     <!-- Caching -->
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
@@ -20,55 +21,63 @@
 <body>
     <div class="full-size poppins">
 
-        <div class="container-title overflow-hidden">
-            <a class="title">TOKOPAEDI</a>
-            <a class="subtitle">Cari Barang ter-<i>Worth It</i> di Tokopedia</a>
+        <div class="section-left-desktop">
+
+            <div class="container-title overflow-hidden">
+                <a class="title">TOKOPAEDI</a>
+                <a class="subtitle">Cari Barang ter-<i>Worth It</i> di Tokopedia</a>
+            </div>
+
+            <div class="container-input overflow-hidden">
+                <input id="product_link" type="text" placeholder="Masukkan link produk" autocomplete="off" autocapitalize="off" autofocus="off" autofill="off" spellcheck="false">
+                <button id="submit_button" type="button"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
         </div>
 
-        <div class="container-input overflow-hidden">
-            <input id="product_link" type="text" placeholder="Masukkan link produk" autocomplete="off" autocapitalize="off" autofocus="off" autofill="off" spellcheck="false">
-            <button id="submit_button" type="button"><i class="fa-solid fa-arrow-right"></i></button>
-        </div>
+        <div class="section-right-desktop">
 
-        <div id="title-related" class="title-container-output-inactive">
-            <span>Produk serupa</span>
-        </div>
+            <div id="title-related" class="title-container-output-inactive">
+                <span>Produk serupa</span>
+            </div>
 
-        <div id="container-output" class="container-output active">
-            <!-- <div class="item-output">
-                <div class="image-container"><img src="https://images.tokopedia.net/img/cache/700/VqbcmM/2024/5/22/fc274d42-ac08-4d36-88da-e86a916a446c.png"></div>
-                <div class="container-output-description">
-                    <a class="output-price">Rp 3.935.000</a>
-                    <a class="output-ongkir"><i class="fa-solid fa-truck"></i>Rp 250.000</a>
-                    <a class="output-waktu"><i class="fa-regular fa-clock"></i>3 Hari</a>
-                    <a class="output-sold"><i class="fa-solid fa-box-open"></i>88</a>
-                    <a class="output-review"><i class="fa-regular fa-comments"></i>31</a>
-                    <a class="output-rating"><i class="fa-regular fa-star"></i>5.0</a>
-                </div>
-            </div> -->
-        </div>
-
-        <div id="title-result" class="title-container-result-inactive">
-            <span>Hasil</span>
-        </div>
-
-        <div id="container-result" class="container-result active">
-            <!-- <div class="item-result">
-                <div class="image-container">
-                    <span>1</span>
-                    <img src="https://images.tokopedia.net/img/cache/700/VqbcmM/2024/7/22/75499b70-ba58-4a60-992f-a0109245d552.jpg">
-                </div>
-                <div class="result-description-container">
-                    <a class="result-title">Xiaomi Mi Monitor 34" G34WQi WQHD Ultrawide 180Hz Curved Gaming - G34WQi, TANPA KAYU</a>
-                    <a class="result-totalprice">Rp 3.890.000 + 280.133</a>
-                    <div class="result-info-container">
-                        <a>Terjual 250</a>
-                        <a>Rating 4.9</a>
-                        <a>Stok Tersisa 93</a>
-                        <a>Pengiriman 4 Hari</a>
+            <div id="container-output" class="container-output active">
+                <!-- <div class="item-output">
+                    <div class="image-container"><img src="https://images.tokopedia.net/img/cache/700/VqbcmM/2024/5/22/fc274d42-ac08-4d36-88da-e86a916a446c.png"></div>
+                    <div class="container-output-description">
+                        <a class="output-price">Rp 3.935.000</a>
+                        <a class="output-ongkir"><i class="fa-solid fa-truck"></i>Rp 250.000</a>
+                        <a class="output-waktu"><i class="fa-regular fa-clock"></i>3 Hari</a>
+                        <a class="output-sold"><i class="fa-solid fa-box-open"></i>88</a>
+                        <a class="output-review"><i class="fa-regular fa-comments"></i>31</a>
+                        <a class="output-rating"><i class="fa-regular fa-star"></i>5.0</a>
                     </div>
-                </div>
-            </div> -->
+                </div> -->
+            </div>
+
+            <div id="title-result" class="title-container-result-inactive">
+                <span>Hasil</span>
+            </div>
+
+            <div id="container-result" class="container-result active">
+                <!-- <div class="item-result">
+                    <div class="image-container">
+                        <span>1</span>
+                        <img src="https://images.tokopedia.net/img/cache/700/VqbcmM/2024/7/22/75499b70-ba58-4a60-992f-a0109245d552.jpg">
+                    </div>
+                    <div class="result-description-container">
+                        <a class="result-title">Xiaomi Mi Monitor 34" G34WQi WQHD Ultrawide 180Hz Curved Gaming - G34WQi, TANPA KAYU</a>
+                        <a class="result-totalprice">Rp 3.890.000 + 280.133</a>
+                        <div class="result-info-container">
+                            <a>Terjual 250</a>
+                            <a>Rating 4.9</a>
+                            <a>Stok Tersisa 93</a>
+                            <a>Pengiriman 4 Hari</a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+
         </div>
 
     </div>
